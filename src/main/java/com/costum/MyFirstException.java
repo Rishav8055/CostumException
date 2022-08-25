@@ -1,2 +1,7 @@
-package com.costum;public class MyFirstException {
+package com.costum;
+
+public class MyFirstException extends Exception{
+    public MyFirstException(String message) {
+        super(message);
+    }
 }
